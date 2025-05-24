@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(249, 249, 249);
+}
+.sec-container{
+    max-width: 1200px;
+    margin:auto;
+    padding: 20px;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+}
+.sec-container h1{
+    font-size: 100px;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-weight: 400;
+    line-height: 122px;
+
+}
+.section-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.category h2{
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    width: 377px;
+    margin-block: 15px;
+}
+.small-p{
+    font-style: italic;
+    font-size: 12px;
+    margin-block: -10px 10px;
+}
+.cat-wrapper{
+    display: flex;
+    gap: 40px;
+}
+.left-content p{
+    font-size: 16px;
+    line-height: 30px;
+}
+.right-content .price-tag{
+    font-weight: 700;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+/* media queries */
+@media screen and (max-width: 768px) {
+  .section-content {
+    grid-template-columns: 1fr;
+  }
+}
+

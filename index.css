@@ -20,12 +20,13 @@ body{
     font-family: "Bricolage Grotesque", sans-serif;
     font-weight: 400;
     line-height: 122px;
+    margin-top: 20px;
 
 }
 .section-content{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 40px;
 }
 
 .category h2{
@@ -43,7 +44,7 @@ body{
 }
 .cat-wrapper{
     display: flex;
-    gap: 40px;
+    gap: 35px;
 }
 .left-content p{
     font-size: 16px;
@@ -54,11 +55,51 @@ body{
     line-height: 30px;
     font-size: 16px;
 }
+.sec-img{
+    width: 50%;
+}
+.footer-info{
+    max-width: 1150px;
+    margin: auto;
+}
+
+
+
 
 /* media queries */
 @media screen and (max-width: 768px) {
   .section-content {
     grid-template-columns: 1fr;
   }
+  
+  .sec-container h1{
+    font-size: 60px;
+    margin-block: -15px;
+  }
+  .left-content {
+    width: 260px;
+  }
+  .left-content p{
+    font-size: 13px;
+    line-height:22px;
+  }
+  .right-content .price-tag{
+    font-size: 13px;
+    line-height:25px;
+    font-weight: 700;
+  }
+  .category-image{
+    display: none;
+  }
 }
 
+@media screen and (max-width: 369px){
+    .cat-wrapper {
+        gap:10px;
+     }
+    .right-content .price-tag{
+        max-width: 90px;
+        font-size: 12px;
+        line-height: 22px;
+    }
+}

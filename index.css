@@ -26,7 +26,10 @@ body{
 .section-content{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
+    gap: 50px;
+}
+.category{
+    max-width: 500px;
 }
 
 .category h2{
@@ -44,7 +47,8 @@ body{
 }
 .cat-wrapper{
     display: flex;
-    gap: 35px;
+    justify-content: space-between;
+    /* gap: 40px; */
 }
 .left-content p{
     font-size: 16px;
@@ -61,6 +65,39 @@ body{
 .footer-info{
     max-width: 1150px;
     margin: auto;
+}
+
+/* footer section */
+.footer-p p{
+  font-size: 16px;
+  line-height: 26px;
+  width: 273px;
+}
+.footer-policy{
+  margin-block: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-policy p{
+  font-family: Arial, sans-serif;
+}
+.footer-policy a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+}
+
+.book{
+  position: relative;
+  padding: 15px 10px;
+  width: 168px;
+  border-radius: 10px;
+  border: 2px solid rgb(0, 0, 0);
+}
+.book:hover{
+  background-color: rgb(0, 0, 0);
+  color: white;
+  transition: 0.3s ease-in-out;
 }
 
 
@@ -88,6 +125,11 @@ body{
     line-height:25px;
     font-weight: 700;
   }
+  .cat-wrapper{
+    width: 400px;
+    /* padding-inline: 10px */
+  }
+  
   .category-image{
     display: none;
   }
@@ -96,6 +138,7 @@ body{
 @media screen and (max-width: 369px){
     .cat-wrapper {
         gap:10px;
+        width: 350px;
      }
     .right-content .price-tag{
         max-width: 90px;

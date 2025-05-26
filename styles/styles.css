@@ -17,7 +17,7 @@ body {
 }
 
 header{
-    background-color: white;
+    background-color: rgb(249, 249, 249);
 }
 
 nav{
@@ -53,7 +53,7 @@ nav{
     cursor: pointer;
     margin: .5rem .7rem;
     border-radius: 1rem;
-    background-color: #dde9f5;
+    background-color: rgb(239, 239, 239);
 
 }
 

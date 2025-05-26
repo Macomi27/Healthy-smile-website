@@ -5,3 +5,66 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/* bety */
+.patient-testimonials{
+    margin:50px;
+}
+.patient-testimonials >p{
+ font-size: 102px;
+ font-family: 'Bricolage Grotesque', sans-serif;
+
+}
+.cards{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap:15px;
+    flex-wrap: nowrap;
+}
+.card-1{
+    border: 1px solid rgb(0, 0, 0);
+    padding:20px;
+    border-radius: 20px;
+    /* width:106px;
+    height:106px; */
+  
+    /* background-color: black; */
+}
+.name-img{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    /* width: 800px; */
+}
+.name-img p{
+    font-size:40px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+
+}
+
+.hearts{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:5px;
+    margin-top:25px;
+    margin-bottom: 30px;
+}
+.hearts img{
+    width:40px;
+    height: 34px;;
+}
+.card-1 > p{
+    font-size: 16px;
+    font-family: "Work Sans", sans-serif, Times, serif;
+    font-weight: bolder;
+}
+.testimonials{
+    font-size:16px;
+    font-family: "Work Sans", sans-serif, Times, serif;
+    line-height: 19px;
+    margin-top:10px;
+
+}

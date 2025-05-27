@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Monstserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 *{
     margin: 0;
@@ -12,7 +13,7 @@ html{
 }
 
 body {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-family: 'Bricolage Grotesque', sans-serif;
 }
 
@@ -89,7 +90,7 @@ nav{
 .hero-section{
     width: 95%;
     margin-inline: auto;
-    margin-block: 5rem;
+    margin-block: 5rem 2rem;
 }
 .hero-section h1{
     font-size: 10rem;
@@ -182,4 +183,86 @@ nav{
 .hero-smile{
     width: 50%;
     display: flex;flex-direction: row-reverse;
+}
+
+.about-section{
+    width: 95%;
+    margin-inline: auto;
+    display: flex;
+}
+
+.about-leftside{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    background-color: rgb(241, 246, 249);
+    border-radius: 1.5rem;
+    padding: 7rem;
+}
+.about-leftside>h3{
+    font-size: 4rem;
+    font-weight: 400;
+}
+.about-leftside>p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+/* .about-leftside-btn{
+    width: 100%;
+    border: 1px solid blue;
+} */
+.about-leftside>button{
+    text-transform: capitalize;
+    background-color: transparent;
+    text-align: center;
+    border: .1rem solid #000;
+    font-size: 1.6rem;
+    padding-block: 1rem;
+    border-radius: 2rem;
+    font-weight: 500;
+    font-family: 'Montserrat';
+    cursor: pointer;
+}
+
+.about-leftside>button:hover{
+    background-color: #000;
+    color: #fff;
+    transition: all .3s ease-in;
+}
+
+.about-rightside{
+    width: 35%;
+    padding-inline: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.about-rightside>p{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(221, 235, 243);
+    border-radius: 2rem;
+    font-family: 'Bricolage Grotesque';
+    padding-block: 4rem;
+    font-size: 2rem;
+}
+.about-rightside>button{
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    border: .1rem solid #000;
+    border-radius: 2rem;
+    padding-block: 4rem;
+    text-transform: capitalize;
+}
+
+.about-rightside>button:hover{
+    background-color: #000;
+    color: #fff;
+    transition: all .3s ease-in;
 }

@@ -1,0 +1,611 @@
+ body{
+  box-sizing:border-box;
+  width:99%;
+  background-color: rgb(21, 86, 119);
+  height:100vh;
+}
+.page{
+    width:80%;
+}
+#team{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+#team h1{
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+}
+#team p{
+  width:600px;
+  font-size:20px;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+.team-1{
+    display: flex;
+    margin-top: 70px;
+    background-color: rgb(221, 235, 243);
+    border-radius: 150px 160px 160px 160px;
+}
+
+.team-1 h2{
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 30px;
+    margin-left: 70px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+.team-1 p{
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    width:610px;
+    margin-left: 70px;
+}
+.team-2{
+    display:flex;
+    margin-top: 40px;
+    background-color:#faf7f7;
+    border-radius:190px 180px 172px 180px;
+    width:96%;
+}
+
+.team-2-text{
+    text-align:right;
+    margin-left: 85px;
+    margin-top: 30px;
+}
+.team-2-text h2{
+    font-family:    'Segoe UI', Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+.team-2 p{
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    width:610px;
+    
+}
+.team-2 img{
+    margin-left:37px;
+    margin-top: 2px;
+    width:302px;
+}
+.team-3{
+    display: flex;
+    margin-top: 70px;
+    background-color: rgb(221, 235, 243);
+    border-radius: 150px 160px 160px 160px;
+}
+.team-3 h2{
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 30px;
+    margin-left: 70px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+.team-3 p{
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    width:610px;
+    margin-left: 70px;
+}
+.team-4{
+    display:flex;
+    margin-top: 40px;
+    background-color:#faf7f7;
+    border-radius:190px 180px 172px 180px;
+    width:96%;
+}
+.team-4-text{
+    text-align:right;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.team-4-text h2{
+    font-family:    'Segoe UI', Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+.team-4 p{
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    width:610px;
+    
+}
+.team-4 img{
+    margin-left:37px;
+    margin-top: 4px;
+    width:304px;
+}
+
+.team-5{
+    display: flex;
+    margin-top: 70px;
+    background-color: rgb(221, 235, 243);
+    border-radius: 150px 160px 160px 160px;
+}
+.team-5 h2{
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 30px;
+    margin-left: 70px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+.team-5 p{
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    width:620px;
+    margin-left: 70px;
+}
+.team-6{
+    display:flex;
+    margin-top: 40px;
+    background-color:#faf7f7;
+    border-radius:190px 180px 172px 180px;
+    width:96%;
+}
+.team-6{
+    display: flex;
+    margin-top: 40px;
+    background-color:#faf7f7;
+    border-radius:190px 180px 172px 180px;
+    width:96%;
+}
+.team-6-text{
+    text-align:right;
+    margin-left: 65px;
+    margin-top: 30px;
+}
+.team-6-text h2{
+    font-family:    'Segoe UI', Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+.team-6 p{
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    width:630px;
+    
+}
+.team-6 img{
+    margin-left:30px;
+    margin-top: 4px;
+    width:304px;
+}
+.footer-logo{
+    width:60%;
+    position: relative;
+    right:12%;
+    bottom:50%;
+}
+.footer-text{
+    display:block;
+    text-align: left;
+    font-family:  'Segoe UI', Tahoma, sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 50px;
+
+}
+.footer-1{
+    display: flex;
+    gap:30px;
+    font-family:  'Segoe UI', Tahoma, sans-serif;
+    font-size: 16px;
+    margin-left: 45px;
+}
+.footer-1 a{
+    text-decoration: none;
+    color:black;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+.footer-1 a:hover{
+    color:black
+}
+.footer-1 i{
+    font-size: 30px;
+
+}
+@media screen and (max-width:1024px){
+    body{
+        width:90%;
+    }
+    .page{
+     width:110%;
+    }
+    #team{
+        margin-top:20px;
+        margin-left:0;
+    }
+    #team h1{
+       font-size:70px;
+       margin-right: 50px;
+    }
+    #team p{
+        font-size: 18px;
+        width:540px;
+    }
+    .team-1{
+        
+        margin-top: 45px;
+        background-color: rgb(221, 235, 243);
+        border-radius: 125px 140px 100px 160px;
+        width:95%;
+    }
+    
+    .team-1 h2{
+        font-family: 'Segoe UI', Tahoma, sans-serif;
+        font-size: 28px;
+        margin-left: 40px;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+    .team-1 p{
+        font-family: 'Segoe UI', Tahoma, sans-serif;
+        width:610px;
+        margin-left: 40px;
+        font-size: 16px;
+    }
+    .team-1 img{
+        width:250px;
+        margin-right:20px;
+    }
+    .team-2{
+        margin-top: 40px;
+        border-radius:150px 150px 142px 150px;
+        width:95%;
+    }
+    
+    .team-2-text{
+        text-align:right;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .team-2-text h2{
+        font-family:    'Segoe UI', Tahoma, sans-serif;
+        font-size: 28px;
+        font-weight: 500;
+    }
+    .team-2 p{
+        font-family: 'Segoe UI', Tahoma, sans-serif;
+        width: 625px;
+        font-size:16px;
+    }
+    .team-2 img{
+        margin-right:20px;
+        width:255px;
+    }
+    .team-3{
+        margin-top: 40px;
+        background-color: rgb(221, 235, 243);
+        border-radius: 125px 140px 100px 160px;
+        width:95%;
+    }
+    
+    .team-3 h2{
+       font-family: 'Segoe UI', Tahoma, sans-serif;
+        font-size: 28px;
+        margin-left: 40px;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+    .team-3 p{
+        font-family: 'Segoe UI', Tahoma, sans-serif;
+        width:610px;
+        margin-left: 40px;
+        font-size: 16px;
+    }
+    .team-3 img{
+        width:250px;
+        margin-right:20px;
+    }
+    .team-4{
+        margin-top: 40px;
+        border-radius:150px 150px 142px 150px;
+        width:95%;
+    }
+    
+    .team-4-text{
+        text-align:right;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .team-4-text h2{
+        font-family:    'Segoe UI', Tahoma, sans-serif;
+        font-size: 28px;
+        font-weight: 500;
+    }
+    .team-4 p{
+        font-family: 'Segoe UI', Tahoma, sans-serif;
+        width:625px;
+        font-size:16px;
+    }
+    .team-4 img{
+        margin-left:25px;
+        width:263px;
+    }
+    .team-5{
+        
+        margin-top: 40px;
+        background-color: rgb(221, 235, 243);
+        border-radius: 125px 140px 100px 160px;
+        width:95%;
+    }
+    
+    .team-5 h2{
+        font-family: 'Segoe UI', Tahoma, sans-serif;
+        font-size: 28px;
+        margin-left: 40px;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+    .team-5 p{
+        font-family: 'Segoe UI', Tahoma, sans-serif;
+        width:610px;
+        margin-left: 40px;
+        font-size: 16px;
+    }
+    .team-5 img{
+        width:250px;
+    }
+    .team-6{ 
+        margin-top: 40px;
+        background-color:#faf7f7;
+        border-radius:150px 150px 142px 150px;
+        width:95%;
+    }
+    
+    .team-6-text{
+        text-align:right;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .team-6-text h2{
+        font-family:    'Segoe UI', Tahoma, sans-serif;
+        font-size: 28px;
+        font-weight: 500;
+    }
+    .team-6 p{
+        font-family: 'Segoe UI', Tahoma, sans-serif;
+        width:625px;
+        font-size:16px;
+    }
+    .team-6 img{
+        margin-left:34px;
+        width:255px;
+    }
+    .footer-logo{
+        position: relative;
+        right:14%;
+        
+    }
+    .footer-text{
+        
+        font-family:  'Segoe UI', Tahoma, sans-serif;
+        font-size: 12px;
+        margin-top: 30px;
+        margin-left: 15px;
+    
+    }
+    .footer-1{
+        gap:10px;
+        font-family:  'Segoe UI', Tahoma, sans-serif;
+        font-size: 12px;
+    }
+    .footer-1 a{
+        text-decoration: none;
+        color:black;
+        font-style: bold;
+        font-weight: 700;
+        font-size: 12px;
+        font-family: 'Segoe UI', Tahoma, sans-serif;
+    }
+    .footer-1 a:hover{
+        color:black
+    }
+    .footer-1 i{
+        font-size: 20px;
+    
+    }
+}
+@media screen and (max-width: 768px){
+    body{
+        width:90%;
+    }
+    .page{
+     width:100%;
+    }
+    #team{
+        margin-top:20px;
+        margin-left:0;
+    }
+    #team h1{
+       font-size:60px;
+       margin-right: 50px;
+    }
+    #team p{
+        font-size: 16px;
+        width:500px;
+    }
+    .team-1{
+        
+        margin-top: 45px;
+        background-color: rgb(221, 235, 243);
+        border-radius: 125px 140px 100px 160px;
+        width:110%;
+    }
+    
+    .team-1 h2{
+        font-family: 'Segoe UI', Tahoma, sans-serif;
+        font-size: 20px;
+        margin-left: 40px;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+    .team-1 p{
+        font-family: 'Segoe UI', Tahoma, sans-serif;
+        width:470px;
+        margin-left: 40px;
+        font-size: 12px;
+    }
+    .team-1 img{
+        width:180px;
+        margin-right:20px;
+    }
+    .team-2{
+        margin-top: 40px;
+        border-radius:150px 150px 142px 150px;
+        width:105%;
+    }
+    
+    .team-2-text{
+        text-align:right;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .team-2-text h2{
+        font-family:    'Segoe UI', Tahoma, sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .team-2 p{
+        font-family: 'Segoe UI', Tahoma, sans-serif;
+        width: 490px;
+        font-size:12px;
+    }
+    .team-2 img{
+        margin-right:40px;
+        width:180px;
+    }
+    .team-3{
+        margin-top: 40px;
+        border-radius: 125px 140px 100px 160px;
+        width:110%;
+    }
+    
+    .team-3 h2{
+       font-family: 'Segoe UI', Tahoma, sans-serif;
+        font-size: 20px;
+        margin-left: 40px;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+    .team-3 p{
+        font-family: 'Segoe UI', Tahoma, sans-serif;
+        width:490px;
+        margin-left: 40px;
+        font-size: 12px;
+    }
+    .team-3 img{
+        width:180px;
+        margin-right:20px;
+    }
+    .team-4{
+        margin-top: 40px;
+        border-radius:150px 150px 142px 150px;
+        width:106%;
+    }
+    
+    .team-4-text{
+        text-align:right;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    .team-4-text h2{
+        font-family:    'Segoe UI', Tahoma, sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .team-4 p{
+        font-family: 'Segoe UI', Tahoma, sans-serif;
+        width:490px;
+        font-size:12px;
+    }
+    .team-4 img{
+        margin-left:25px;
+        width:180px;
+    }
+    .team-5{
+        
+        margin-top: 40px;
+        background-color: rgb(221, 235, 243);
+        border-radius: 125px 140px 100px 160px;
+        width:110%;
+    }
+    
+    .team-5 h2{
+        font-family: 'Segoe UI', Tahoma, sans-serif;
+        font-size: 20px;
+        margin-left: 40px;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+    .team-5 p{
+        font-family: 'Segoe UI', Tahoma, sans-serif;
+        width:480px;
+        margin-left: 40px;
+        font-size: 12px;
+    }
+    .team-5 img{
+        width:180px;
+    }
+    .team-6{ 
+        margin-top: 40px;
+        background-color:#faf7f7;
+        border-radius:150px 150px 142px 150px;
+        width:106%;
+    }
+    
+    .team-6-text{
+        text-align:right;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .team-6-text h2{
+        font-family:    'Segoe UI', Tahoma, sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .team-6 p{
+        font-family: 'Segoe UI', Tahoma, sans-serif;
+        width:480px;
+        font-size:12px;
+    }
+    .team-6 img{
+        margin-left:25px;
+        width:180px;
+    }
+    .footer-logo{
+        position: relative;
+        right:14%;
+        
+    }
+    .footer-text{
+        
+        font-family:  'Segoe UI', Tahoma, sans-serif;
+        font-size: 12px;
+        margin-top: 30px;
+        margin-left: 15px;
+    
+    }
+    .footer-1{ 
+        font-family:  'Segoe UI', Tahoma, sans-serif;
+        font-size: 12px;
+    }
+    .footer-1 a{
+        text-decoration: none;
+        color:black;
+        font-style: bold;
+        font-weight: 700;
+        font-size: 12px;
+        font-family: 'Segoe UI', Tahoma, sans-serif;
+    }
+    .footer-1 a:hover{
+        color:black
+    }
+    .footer-1 i{
+        font-size: 20px;
+     
+    }
+    
+}  
+
+
+

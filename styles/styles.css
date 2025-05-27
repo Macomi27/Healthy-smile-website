@@ -189,6 +189,7 @@ nav{
     width: 95%;
     margin-inline: auto;
     display: flex;
+    margin-block: 0 5rem;
 }
 
 .about-leftside{
@@ -196,7 +197,7 @@ nav{
     display: flex;
     flex-direction: column;
     gap: 3rem;
-    background-color: rgb(241, 246, 249);
+    background-color: rgb(240, 245, 247);
     border-radius: 1.5rem;
     padding: 7rem;
 }
@@ -210,10 +211,6 @@ nav{
     line-height: 1.5;
 }
 
-/* .about-leftside-btn{
-    width: 100%;
-    border: 1px solid blue;
-} */
 .about-leftside>button{
     text-transform: capitalize;
     background-color: transparent;
@@ -247,14 +244,16 @@ nav{
     border-radius: 2rem;
     font-family: 'Bricolage Grotesque';
     padding-block: 4rem;
-    font-size: 2rem;
+    font-size: 2.4rem;
+    font-weight: 500;
 }
 .about-rightside>button{
     width: 100%;
     text-align: center;
     background-color: #fff;
     font-family: 'Montserrat';
-    font-size: 2rem;
+    font-size: 2.4rem;
+    font-weight: 500;
     border: .1rem solid #000;
     border-radius: 2rem;
     padding-block: 4rem;

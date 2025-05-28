@@ -202,7 +202,7 @@ nav{
     padding: 7rem;
 }
 .about-leftside>h3{
-    font-size: 4rem;
+    font-size: 4.2rem;
     font-weight: 400;
 }
 .about-leftside>p{
@@ -264,4 +264,27 @@ nav{
     background-color: #000;
     color: #fff;
     transition: all .3s ease-in;
+}
+
+.dental-clinic{
+    width: 95%;
+    margin-inline: auto;
+    margin-block: 5rem;
+}
+.dental-clinic>h2{
+    font-size: 10rem;
+    font-weight: 400;
+}
+
+.clinic-view{
+    position: relative;
+}
+.clinic-img>img{
+    width: 100%;
+}
+
+.black-smile{
+    position: absolute;
+    bottom: -30%;
+    left: 0;
 }

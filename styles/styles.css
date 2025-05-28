@@ -288,3 +288,39 @@ nav{
     bottom: -30%;
     left: 0;
 }
+
+.healthy-smile{
+    width: 95%;
+    margin-inline: auto;
+    margin-block: 15rem 5rem;
+}
+.healthy-smile>h3{
+    font-size: 6rem;
+    font-weight: 400;
+    font-size: 5.2rem;
+}
+
+.healthy-smile-boxes{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10rem;
+    margin-block: 5rem;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+.smile-box-text{
+    margin-bottom: 2rem;
+}
+
+.healthy-smile-boxes-left{
+    border-left: 2px solid #000;
+    padding-left: 2rem;
+    text-align: left;
+}
+
+.healthy-smile-boxes-right{
+    text-align: right;
+    border-right: 2px solid #000;
+    padding-right: 2rem;
+}

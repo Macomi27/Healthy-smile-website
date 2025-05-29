@@ -324,3 +324,82 @@ nav{
     border-right: 2px solid #000;
     padding-right: 2rem;
 }
+
+.stunning-results{
+    width: 95%;
+    margin-inline: auto;
+    margin-block: 5rem;
+    padding: 7rem;
+    border-radius: 2rem;
+    background-color: rgb(221, 235, 243);
+}
+.stunning-results>h2{
+    font-size: 6rem;
+    font-weight: 400;
+    font-size: 5.2rem;
+}
+
+.result-loader{
+    width: 100%;
+    height: 5vh;
+    background-image: linear-gradient(to right, #d4dac9 0%, #e5e6c8 50%, #f0f0f0 100%);
+    border-radius: 2rem;
+    margin-block: 3rem;
+}
+
+.result-imgs{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+.teeth1>img, .teeth2>img{
+    width: 100%;
+}
+
+.result-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.result-cta-box{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 50%;
+}
+.result-cta-box>h4{
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.result-cta-btns{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.result-cta-btns>button{
+    width: 49%;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 1.5rem 0;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+}
+.result-cta-btns>button:hover{
+    background-color: #000;
+    color: #fff;
+    transition: all .3s ease-in;
+}
+
+.result-smiley{
+    width: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+}

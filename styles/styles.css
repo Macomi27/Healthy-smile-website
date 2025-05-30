@@ -15,8 +15,6 @@ html{
 body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Bricolage Grotesque', sans-serif;
-    position: relative;
-    overflow: hidden;
 }
 
 header{
@@ -327,6 +325,11 @@ nav{
     padding-right: 2rem;
 }
 
+.stunning-results-section{
+    position: relative;
+    overflow: hidden;
+}
+
 .stunning-results{
     width: 95%;
     margin-inline: auto;
@@ -334,6 +337,7 @@ nav{
     padding: 7rem;
     border-radius: 2rem;
     background-color: rgb(221, 235, 243);
+    
 }
 .stunning-results>h2{
     font-size: 6rem;

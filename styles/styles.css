@@ -200,6 +200,7 @@ nav{
     background-color: rgb(240, 245, 247);
     border-radius: 1.5rem;
     padding: 7rem;
+    justify-content: center;
 }
 .about-leftside>h3{
     font-size: 4.2rem;
@@ -208,7 +209,7 @@ nav{
 .about-leftside>p{
     font-size: 1.6rem;
     font-weight: 400;
-    line-height: 1.5;
+    line-height: 1.7;
 }
 
 .about-leftside>button{
@@ -217,8 +218,8 @@ nav{
     text-align: center;
     border: .1rem solid #000;
     font-size: 1.6rem;
-    padding-block: 1rem;
-    border-radius: 2rem;
+    padding-block: 1.2rem;
+    border-radius: 2.4rem;
     font-weight: 500;
     font-family: 'Montserrat';
     cursor: pointer;
@@ -243,7 +244,7 @@ nav{
     background-color: rgb(221, 235, 243);
     border-radius: 2rem;
     font-family: 'Bricolage Grotesque';
-    padding-block: 4rem;
+    padding-block: 4.4rem;
     font-size: 2.4rem;
     font-weight: 500;
 }
@@ -256,7 +257,7 @@ nav{
     font-weight: 500;
     border: .1rem solid #000;
     border-radius: 2rem;
-    padding-block: 4rem;
+    padding-block: 4.4rem;
     text-transform: capitalize;
 }
 
@@ -310,24 +311,32 @@ nav{
 }
 
 .smile-box-text{
-    margin-bottom: 2rem;
+    margin-bottom: 2.4rem;
+}
+
+.smile-box-long-text-left{
+    margin-bottom: 2.4rem;
+}
+.smile-box-long-text-right{
+    margin-bottom: 9.6rem;
 }
 
 .healthy-smile-boxes-left{
     border-left: 2px solid #000;
-    padding-left: 2rem;
+    padding: 2rem;
     text-align: left;
 }
 
 .healthy-smile-boxes-right{
     text-align: right;
     border-right: 2px solid #000;
-    padding-right: 2rem;
+    padding: 2rem;
 }
 
 .stunning-results-section{
     position: relative;
     overflow: hidden;
+    margin-block: 0 5rem;
 }
 
 .stunning-results{

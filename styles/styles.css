@@ -299,7 +299,6 @@ nav{
 .healthy-smile>h3{
     font-size: 6rem;
     font-weight: 400;
-    font-size: 5.2rem;
 }
 
 .healthy-smile-boxes{
@@ -774,7 +773,34 @@ nav{
     display: none;
 }
 
+.dental-clinic>h2{
+    font-size: 4.4rem;
+}
 
+.clinic-img>img{
+    border-radius: 2rem;
+}
+
+.black-smile{
+    width: 15rem;
+    bottom: -18%;
+    left: 7%;
+}
+.black-smile img{
+    width: 100%;
+}
+
+.healthy-smile{
+    margin-block: 5rem;
+}
+.healthy-smile>h3{
+    font-size: 4.4rem;
+}
+
+.healthy-smile-boxes{
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
 
   .social-media{
     display: none;

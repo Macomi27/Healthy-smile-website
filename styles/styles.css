@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Monstserrat:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+
 
 *{
     margin: 0;
@@ -14,7 +14,7 @@ html{
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-family: 'Bricolage Grotesque', sans-serif;
 }
 
@@ -105,11 +105,11 @@ nav{
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    height: 120vh;
     border-radius: 2rem;
     color: #fff;
     display: flex;
     flex-direction: column;
+    gap: 10rem;
     padding: 8rem;
     align-items: center;
     justify-content: space-between;
@@ -222,7 +222,7 @@ nav{
     padding-block: 1.2rem;
     border-radius: 2.4rem;
     font-weight: 500;
-    font-family: 'Montserrat';
+    font-family: 'Work Sans';
     cursor: pointer;
 }
 
@@ -253,7 +253,7 @@ nav{
     width: 100%;
     text-align: center;
     background-color: #fff;
-    font-family: 'Montserrat';
+    font-family: 'Work Sans';
     font-size: 2.4rem;
     font-weight: 500;
     border: .1rem solid #000;
@@ -724,8 +724,8 @@ nav{
 }
 
 .hero-img{
-    height: 70vh;
     padding: 4rem;
+    gap: 6rem;
 }
 
 .hero-upper-img{
@@ -757,6 +757,24 @@ nav{
 .hero-smile{
     display: none;
 }
+
+.about-leftside{
+    width: 100%;
+    padding: 3rem;
+}
+.about-leftside>h3{
+    font-size: 4rem;
+}
+.about-leftside>button{
+    width: 100%;
+    padding-block: 1.4rem;
+    
+}
+.about-rightside{
+    display: none;
+}
+
+
 
   .social-media{
     display: none;

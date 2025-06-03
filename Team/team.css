@@ -1,7 +1,7 @@
  body{
   box-sizing:border-box;
   width:99%;
-  background-color: rgb(21, 86, 119);
+  background-color: rgb(250, 252, 253);
   height:100vh;
 }
 .page{
@@ -166,42 +166,73 @@
     margin-top: 4px;
     width:304px;
 }
-.footer-logo{
-    width:60%;
-    position: relative;
-    right:12%;
-    bottom:50%;
+.footer-logo img{
+    width:30%;
+    position:relative;
+    right:6%;
+   
+    
 }
-.footer-text{
+
+.footer-text p{
     display:block;
     text-align: left;
     font-family:  'Segoe UI', Tahoma, sans-serif;
     font-size: 18px;
     margin-top: 10px;
-    margin-left: 50px;
+    margin-left:  20px;
 
 }
 .footer-1{
-    display: flex;
+    display:flex;
     gap:30px;
-    font-family:  'Segoe UI', Tahoma, sans-serif;
-    font-size: 16px;
-    margin-left: 45px;
+    margin-left: 20px;
 }
-.footer-1 a{
-    text-decoration: none;
-    color:black;
-    font-style: bold;
+ #foot-1{
+    font-family: 'Segoe UI', Tahoma, sans-serif;
     font-weight: 700;
     font-size: 20px;
+    
+}
+#foot-1 a{
+    color:black;
+    text-decoration: none;
+}
+#foot-2{
     font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 16px;
+    position: relative;
+    bottom:17px;
+    left:110px;
 }
-.footer-1 a:hover{
-    color:black
+#foot-2 a{
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
 }
-.footer-1 i{
-    font-size: 30px;
-
+#foot-3 .fa-brands{
+    font-size:30px;
+    position: relative;
+ left:10%;
+    width:60px;
+}
+#foot-4{
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    position: relative;
+ left:40%;
+    font-weight: 700;
+}
+#foot-4 a{
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 10px 5px;
+}
+#foot-4 a:hover{
+    background-color:black;
+    color:white
 }
 @media screen and (max-width:1024px){
     body{
@@ -211,7 +242,7 @@
      width:110%;
     }
     #team{
-        margin-top:20px;
+        margin-top:10px;
         margin-left:0;
     }
     #team h1{
@@ -371,39 +402,70 @@
         margin-left:34px;
         width:255px;
     }
-    .footer-logo{
+    .footer-logo img{
         position: relative;
-        right:14%;
+        right:4%;
+        top:30%;
+        width:200px;
         
     }
-    .footer-text{
-        
-        font-family:  'Segoe UI', Tahoma, sans-serif;
-        font-size: 12px;
-        margin-top: 30px;
-        margin-left: 15px;
-    
+    .footer-text p{
+        font-size: 16px;
+        margin-left:10px;
     }
     .footer-1{
-        gap:10px;
-        font-family:  'Segoe UI', Tahoma, sans-serif;
-        font-size: 12px;
+        gap:5px;
+        margin-left:5px;
     }
-    .footer-1 a{
-        text-decoration: none;
-        color:black;
-        font-style: bold;
-        font-weight: 700;
-        font-size: 12px;
-        font-family: 'Segoe UI', Tahoma, sans-serif;
-    }
-    .footer-1 a:hover{
-        color:black
-    }
-    .footer-1 i{
-        font-size: 20px;
+    #foot-1{
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin-left:8px;
     
-    }
+}
+#foot-1 a{
+    color:black;
+    text-decoration: none;
+}
+#foot-2{
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 12px;
+    position: relative;
+    bottom:17px;
+    left:110px;
+}
+#foot-2 a{
+    color:black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+.footer-1 #foot-3  .fa-brands{
+    font-size:30px;
+    position:relative;
+    width:30px;
+    left:10%;
+    
+}
+#foot-4{
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    position: relative;
+    font-weight: 700;
+    right:10%;
+}
+#foot-4 a{
+    color:black;
+    text-decoration: none;
+    font-size: 10px;
+    border: 1px solid black;
+    padding: 5px 5px;
+}
+#foot-4 a:hover{
+    background-color:black;
+    color:white
+}
+    
 }
 @media screen and (max-width: 768px){
     body{
@@ -572,40 +634,300 @@
         margin-left:25px;
         width:180px;
     }
-    .footer-logo{
+     .footer-logo img{
         position: relative;
-        right:14%;
+         right:6%;
+         font-size: 150px; 
+
         
     }
-    .footer-text{
-        
-        font-family:  'Segoe UI', Tahoma, sans-serif;
-        font-size: 12px;
-        margin-top: 30px;
-        margin-left: 15px;
+    .footer-text p{
+        font-size:12px;
+    }
+    .footer-1{
+        gap:5px;
+        margin-left:5px;
+    }
+    #foot-1{
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+   
     
-    }
-    .footer-1{ 
-        font-family:  'Segoe UI', Tahoma, sans-serif;
-        font-size: 12px;
-    }
-    .footer-1 a{
-        text-decoration: none;
-        color:black;
-        font-style: bold;
-        font-weight: 700;
-        font-size: 12px;
-        font-family: 'Segoe UI', Tahoma, sans-serif;
-    }
-    .footer-1 a:hover{
-        color:black
-    }
-    .footer-1 i{
-        font-size: 20px;
-     
-    }
+}
+#foot-1 a{
+    color:black;
+    text-decoration: none;
+}
+#foot-2{
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 12px;
+    position: relative;
+    bottom:17px;
+    left:50px;
+}
+#foot-2 a{
+    color:black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+#foot-3 .fa-brands{
+    font-size:30px;
+    position:relative;
+    width:25px;
+    
+    
+}
+#foot-4{
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    position: relative;
+    font-weight: 700;
+    left:25%;
+}
+#foot-4 a{
+    color:black;
+    text-decoration: none;
+    font-size: 10px;
+    border: 1px solid black;
+    padding: 5px 5px;
+}
+#foot-4 a:hover{
+    background-color:black;
+    color:white
+}
     
 }  
+@media screen and (max-width:425px){
+     body{
+        width: 85%;
+    }
+    .page{
+     width: 110%;
+    }
+    #team{
+        margin-top:20px;
+        margin-left:0;
+    }
+    #team h1{
+       font-size:30px;
+       margin-right: 50px;
+    }
+    #team p{
+        font-size: 8px;
+        width:250px;
+    }
+    .team-1{
+        
+        margin-top: 30px;
+        background-color: rgb(221, 235, 243);
+        border-radius: 125px 140px 100px 160px;
+        width:105%;
+    }
+    
+    .team-1 h2{
+        font-family: 'Segoe UI', Tahoma, sans-serif;
+        font-size: 10px;
+        margin-left: 10px;
+        font-weight: 500;
+        margin-top: 5px;
+    }
+    .team-1 p{
+        font-family: 'Segoe UI', Tahoma, sans-serif;
+        width:300px;
+        margin-left: 10px;
+        font-size: 7px;
+    }
+    .team-1 img{
+        width:80px;
+        margin-right:20px;
+    }
+    .team-2{
+        margin-top: 30px;
+        border-radius:150px 150px 142px 150px;
+        width:106%;
+    }
+    
+    .team-2-text{
+        text-align:right;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    .team-2-text h2{
+        font-family:    'Segoe UI', Tahoma, sans-serif;
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .team-2 p{
+        font-family: 'Segoe UI', Tahoma, sans-serif;
+        width: 300px;
+        font-size:7px;
+    }
+    .team-2 img{
+        margin-right:30px;
+        width:80px;
+    }
+    .team-3{
+        margin-top: 20px;
+        border-radius: 125px 140px 100px 160px;
+        width:105%;
+    }
+    
+    .team-3 h2{
+       font-family: 'Segoe UI', Tahoma, sans-serif;
+        font-size: 10px;
+        margin-left: 10px;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+    .team-3 p{
+        font-family: 'Segoe UI', Tahoma, sans-serif;
+        width:300px;
+        margin-left:10px;
+        font-size: 7px;
+    }
+    .team-3 img{
+        width:80px;
+        margin-right:20px;
+    }
+    .team-4{
+        margin-top: 30px;
+        border-radius:150px 150px 142px 150px;
+        width:106%;
+    }
+    
+    .team-4-text{
+        text-align:right;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .team-4-text h2{
+        font-family:    'Segoe UI', Tahoma, sans-serif;
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .team-4 p{
+        font-family: 'Segoe UI', Tahoma, sans-serif;
+        width:300px;
+        font-size:7px;
+    }
+    .team-4 img{
+        margin-left:20px;
+        width:80px;
+    }
+    .team-5{
+        
+        margin-top: 30px;
+        background-color: rgb(221, 235, 243);
+        border-radius: 125px 140px 100px 160px;
+        width:105%;
+    }
+    
+    .team-5 h2{
+        font-family: 'Segoe UI', Tahoma, sans-serif;
+        font-size: 10px;
+        margin-left: 20px;
+        font-weight: 500;
+        margin-top: 10px;
+    }
+    .team-5 p{
+        font-family: 'Segoe UI', Tahoma, sans-serif;
+        width:300px;
+        margin-left: 20px;
+        font-size: 7px;
+    }
+    .team-5 img{
+        width:80px;
+    }
+    .team-6{ 
+        margin-top: 30px;
+        background-color:#faf7f7;
+        border-radius:150px 150px 142px 150px;
+        width:106%;
+    }
+    
+    .team-6-text{
+        text-align:right;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    .team-6-text h2{
+        font-family:    'Segoe UI', Tahoma, sans-serif;
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .team-6 p{
+        font-family: 'Segoe UI', Tahoma, sans-serif;
+        width:300px;
+        font-size:7px;
+    }
+    .team-6 img{
+        margin-left:20px;
+        width:80px;
+    }
+    .footer-logo img{
+        position: relative;
+    right:0%;
+        width:100px;
+        
+    }
+    .footer-text p{
+        font-size:10px;
+       margin-left:20px;
+    }
+    .footer-1{
+        gap:0px;
+        margin-left:3px;
+    }
+    #foot-1{
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    margin-left:4px;
+    
+}
+#foot-1 a{
+    color:black;
+    text-decoration: none;
+}
+#foot-2{
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 10px;
+    position: relative;
+    bottom:8px;
+    left:15px;
+}
+#foot-2 a{
+    color:black;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 700;
+}
+#foot-3 .fa-brands{
+    font-size:10px;
+    width:20px;
+    
+}
+#foot-4{
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+     position: relative;
+    left:10%;
+    
+}
+#foot-4 a{
+    color:black;
+    text-decoration: none;
+    font-size: 10px;
+    border: 1px solid black;
+    padding: 5px 5px;
+   
+}
+#foot-4 a:hover{
+    background-color:black;
+    color:white
+}
+    
+}
 
 
 

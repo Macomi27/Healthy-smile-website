@@ -17,6 +17,8 @@ body {
     background-color: rgb(249, 249, 249);
     font-family: 'Work Sans', sans-serif;
     font-family: 'Bricolage Grotesque', sans-serif;
+    position: relative;
+    overflow: hidden;
 }
 
 header{

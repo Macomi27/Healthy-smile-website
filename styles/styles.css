@@ -14,6 +14,7 @@ html{
 }
 
 body {
+    background-color: rgb(249, 249, 249);
     font-family: 'Work Sans', sans-serif;
     font-family: 'Bricolage Grotesque', sans-serif;
     position: relative;
@@ -21,20 +22,23 @@ body {
 }
 
 header{
-    background-color: rgb(249, 249, 249);
-    /* box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
-    inset-block-start: 0; */
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 4px 8px 0px inset;
+   
 }
 
 nav{
     width: 95%;
     max-width: 1200rem;
-    margin-top: 2rem;
+    padding-top: 3rem;
     margin-inline: auto;
-    padding: 1rem 0;
+}
+.desktop-nav{
+    width: 100%;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+}
+.mobile-nav{
+    display: none;
 }
 
 .nav-home-btn{
@@ -46,21 +50,32 @@ nav{
     justify-content: center;
     width: 35%;
 }
-.nav-home-btn a{
+.nav-home-btn>a{
     text-decoration: none;
     border: none;
     color: #000;
     padding: 0.5rem 13rem;
     font-weight: 400;
     font-size: 2.4rem;
+    position: relative;
 }
 
-.nav-home-btn a:hover{
+.nav-home-btn>a:hover{
     cursor: pointer;
-    margin: .5rem .7rem;
+    margin: 1rem .5rem;
     border-radius: 1rem;
     background-color: rgb(221, 235, 243);
 
+}
+.nav-home-btn>.little-smile{
+    width: 3rem;
+    position: absolute;
+    left: 23.5%;
+    top: 10.5%;
+    transform: rotate(-30deg);
+}
+.little-smile>img{
+    width: 100%;
 }
 
 .nav-home-links{
@@ -167,7 +182,7 @@ nav{
 .more-goto>i{
     font-size: 6rem;
     font-family: 'Bricolage Grotesque';
-    font-weight: 200;
+    font-weight: 400;
 }
 
 .hero-lower-img{
@@ -336,6 +351,8 @@ nav{
 }
 
 .stunning-results-section{
+    width: 95%;
+    margin-inline: auto;
     position: relative;
     overflow: hidden;
 }
@@ -712,7 +729,7 @@ body {
     background-color: #f9f9f9;
 }
 
-nav{
+.desktop-nav{
     display: none;
 }
 
@@ -727,6 +744,13 @@ nav{
 .hero-img{
     padding: 4rem;
     gap: 6rem;
+}
+.hero-img,
+.about-section,
+.dental-clinic,
+.healthy-smile,
+.stunning-results-section{
+    width: 90%;
 }
 
 .hero-upper-img{
@@ -776,7 +800,7 @@ nav{
 }
 
 .dental-clinic>h2{
-    display: none;
+    font-size: 4.8rem;
 }
 
 .clinic-img>img{
